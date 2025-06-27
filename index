@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset and fonts */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ff6ec4, #7873f5);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 30px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      background: rgba(0,0,0,0.2);
+      padding: 12px;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.8em;
+      color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Niraj Khatiwada</h1>
+    <p>Find me on these platforms:</p>
+
+    <div class="social-links">
+      <a href="https://instagram.com/nekoniraj" target="_blank">📸 Instagram</a>
+      <a href="https://twitter.com/nekoniraj" target="_blank">🐦 Twitter</a>
+      <a href="mailto:nirajkhatiwada150@gmail.com">📧 Email Me</a>
+    </div>
+
+    <footer>
+      © 2025 Niraj Khatiwada. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
